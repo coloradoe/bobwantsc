@@ -18,21 +18,3 @@ int main()
 
     return 0;
 }
-// Function for calculating factorial
-int fact(int num)
-{
-    int k = 1, i;
-    // factorial of 0 is 1
-    if (num == 0)
-    {
-        return(k);
-    }
-    else
-    {
-        for (i = 1; i <= num; i++)
-    {
-            k = k * i;
-	}
-    }
-    return(k);
-}
